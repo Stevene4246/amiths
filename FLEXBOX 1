@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            padding: 4px;
+            height: calc(100vh - 8px);
+            gap: 4px;
+        }
+        nav, main, aside, footer{
+            border: 1px solid black;
+        }
+        nav{
+            display: flex;
+            padding: 4px;
+            justify-content: space-between;
+            align-items: center;
+            
+        
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+        }
+        .jirosh{
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .box{
+            display: flex;
+            background-color: red;
+            height: 60px;
+            width: 60px;
+        }
+        .text{
+            display: flex;
+            justify-items: center;
+        }
+        .stevers{
+            display: flex;
+            gap: 4px;
+        }
+        .boxes{
+            display: flex;
+            background-color: red;
+            height: 45px;
+            width: 90px;
+
+        }
+        main{
+            display: flex;
+            flex-grow: 1;
+            gap: 4px;
+            padding: 4px;
+        }
+        .kuntinir{
+                            display: flex;
+                            flex-grow: 1;
+                            gap: 4px;
+        }
+        aside{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            padding: 4px;
+
+        }
+        .boks{
+                border: 1px solid black;
+                height: 45px;
+                width: 15vw;
+        }
+        footer{
+            display: flex;
+            gap: 4px;
+            padding: 4px;
+            flex-direction: column;
+            
+        }
+        .jeros{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .backs{
+            display: flex; 
+            background-color: red;
+            justify-content: center;
+            height: 30px;
+            width: 30px;
+        }
+        .mader{
+            display: flex;
+            gap: 4px;
+        }
+        .continir{
+            display: flex;
+            border: 1px solid black;
+            flex-direction: row;
+            gap: 4px;
+            padding: 4px;
+            flex-wrap: wrap;
+
+        }
+        .konteyner{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            
+        }
+        .baks{
+            display: flex;
+            border: 1px solid black;
+            height: 115px;
+            width: 115px;
+    
+        }
+        .continer{
+            display: flex;
+            border: 1px solid black;
+            gap: 4px;
+            padding: 8px;
+            justify-content: space-between;
+        }
+        .vaks{
+            display: flex;
+            border: 1px solid black;
+            height: 200px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        
+            <div class="jirosh">
+                <div class="box"></div>
+                <div class="text">FLEXBOX</div>
+            </div>
+                <div class="stevers">
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+            </div>
+    </nav>
+
+
+    <div class="kuntinir">
+    <main>
+        <div class="konteyner">
+            <div class="continir">
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+                <div class="baks"></div>
+            </div>
+            <div class="continer">
+                <div class="vaks"></div>
+                <div class="vaks"></div>
+                <div class="vaks"></div>
+            </div>
+
+        </div>
+                                                                                </main>
+
+    <aside>
+        <div class="boks"></div>
+        <div class="boks"></div>
+        <div class="boks"></div>
+        <div class="boks"></div>
+        <div class="boks"></div>
+        <div class="boks"></div>
+        <div class="boks"></div>
+        <div class="boks"></div>
+        <div class="boks"></div>
+        <div class="boks"></div>
+    </aside>
+</div>
+
+
+    <footer>
+        <div class="jirosh">
+            <div class="box"></div>
+            <div class="text">FLEXBOX</div>
+        </div>
+        <div><hr></div>
+        <div class="jeros">
+            <div class="mader">
+            <div class="backs"></div>
+            <div class="backs"></div>
+            <div class="backs"></div>
+            <div class="backs"></div>
+            <div class="backs"></div>
+        </div>
+            <div class="tiks"> &copy;Copyright All rights reserved.</div>
+        </div>
+        
+    </footer>
+</body>
+</html>
