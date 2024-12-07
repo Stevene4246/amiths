@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX5-AMITHS</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: calc(100vh - 8px);
+            padding: 4px;
+            gap: 4px;
+        }
+
+        nav {
+            display: flex;
+            border: 1px solid black;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stevene {
+            display: flex;
+            padding: 4px;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .stibin {
+            background-color: red;
+            height: 40px;
+            width: 40px;
+        }
+
+        .stib {
+            background-color: red;
+            gap: 4px;
+            height: 30px;
+            width: 50px;
+        }
+
+        .stibeyn {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: row;
+            gap: 4px;
+        }
+
+        main {
+            display: flex;
+            border: 1px solid black;
+            flex-grow: 1;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .stiveyn {
+            display: flex;
+            border: 1px solid black;
+            width: 340px;
+            flex-wrap: wrap;
+            padding: 8px;
+            gap: 4px;
+            align-content: flex-start;
+        }
+
+        .steb {
+            border: 1px solid black;
+            height: 80px;
+            width: 80px;
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            gap: 4px;
+            padding: 4px;
+        }
+
+        .amiths {
+            height: 30px;
+            width: 15vw;
+            border: 1px solid black;
+        }
+
+        footer {
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .amets {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px;
+        }
+
+        .ameyts {
+            background-color: red;
+            height: 40px;
+            width: 40px;
+        }
+
+        .ameths {
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+        }
+
+        .amiyts {
+            background-color: red;
+            height: 25px;
+            width: 25px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="stevene">
+            <div class="stibin"></div>
+            <div class="navtext">FLEXBOX</div>
+        </div>
+
+        <div class="stevene">
+            <div class="stib"></div>
+            <div class="stib"></div>
+            <div class="stib"></div>
+            <div class="stib"></div>
+            <div class="stib"></div>
+            <div class="stib"></div>
+            <div class="stib"></div>
+            <div class="stib"></div>
+        </div>
+    </nav>
+
+    <div class="stibeyn">
+        <main>
+            <div class="stiveyn">
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+            </div>
+
+            <div class="stiveyn">
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+                <div class="steb"></div>
+            </div>
+        </main>
+
+        <aside>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="amets">
+            <div class="ameyts"></div>
+            <div class="h1">
+                <p>FLEXBOX</p>
+                <p>&copy; Copyright All rights reserved</p>
+            </div>
+        </div> 
+
+        <div class="amets">
+            <div class="ameths">
+                <div class="amiyts"></div>
+                <div class="amiyts"></div>
+                <div class="amiyts"></div>
+                <div class="amiyts"></div>
+                <div class="amiyts"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
