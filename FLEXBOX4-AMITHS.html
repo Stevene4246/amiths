@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX4-AMITHS</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 4px;
+            gap: 4px;
+            height: calc(100vh - 8px);
+        }
+
+        nav {
+            display: flex;
+            border: 1px solid black;
+            padding: 4px;
+            justify-content: space-between;
+        }
+
+        .stevene {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .stibin {
+            background-color: red;
+            height: 40px;
+            width: 40px;
+        }
+
+        .stib {
+            background-color: blue;
+            height: 30px;
+            width: 50px;
+        }
+
+        .stibeyn {
+            display: flex;
+            gap: 4px;
+            flex-grow: 1;
+        }
+
+        .stiveyn {
+            display: flex;
+            border: 1px solid black;
+            flex-grow: 1;
+            justify-content: center;
+        }
+
+        main {
+            display: flex;
+            padding: 10px;
+            column-gap: 200px;
+        }
+
+        .steb {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            height: 200px;
+            width: 350px;
+            align-items: center;
+        }
+
+        .amits {
+            padding-top: 4px;
+        }
+
+        .amit {
+            border: 1px solid black;
+            height: 170px;
+            width: 330px;
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            padding: 4px;
+            gap: 4px;
+            border: 1px solid black;
+        }
+
+        .amiths {
+            border: 1px solid black;
+            height: 30px;
+            width: 20vw;
+        }
+
+        footer {
+            border: 1px solid black;
+        }
+
+        .amets {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px;
+        }
+
+        .ameyts {
+            background-color: red;
+            height: 40px;
+            width: 40px;
+        }
+
+        .ameths {
+            justify-items: center;
+            padding: 4px;
+        }
+
+        .amiyts {
+            display: flex;
+            gap: 4px;
+        }
+
+        .stevene-box {
+            background-color: red;
+            height: 20px;
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="stevene">
+            <div class="stibin"></div>
+            <div class="navtext">FLEXBOX</div>
+        </div>
+
+        <div class="stevene">
+            <div class="stib"></div>
+            <div class="stib"></div>
+        </div>
+    </nav>
+
+    <div class="stibeyn">
+        <div class="stiveyn">
+            <main>
+                <div class="steb">
+                    <div class="amits">
+                        <p>Mainbox 1</p>
+                    </div>
+                    <div class="amit"></div>
+                </div>
+
+                <div class="steb">
+                    <div class="amits">
+                        <p>Mainbox 1</p>
+                    </div>
+                    <div class="amit"></div>
+                </div>
+            </main>
+        </div>
+
+        <aside>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+            <div class="amiths"></div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="amets">
+            <div class="ameyts"></div>
+            <div class="h1">FLEXBOX</div>
+        </div>
+
+        <div>
+            <hr>
+        </div>
+
+        <div class="ameths">
+            <div class="amiyts">
+                <div class="stevene-box"></div>
+                <div class="stevene-box"></div>
+                <div class="stevene-box"></div>
+                <div class="stevene-box"></div>
+                <div class="stevene-box"></div>
+            </div>
+
+            <div class="footertext">
+                <p>&copy;Copyright All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
